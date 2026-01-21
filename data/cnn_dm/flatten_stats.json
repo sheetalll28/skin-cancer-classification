@@ -1,0 +1,7 @@
+{
+  "train_sentences": 60012,
+  "validation_sentences": 57140,
+  "test_sentences": 55648,
+  "vocab_size": 2000,
+  "seq_len": 32
+}

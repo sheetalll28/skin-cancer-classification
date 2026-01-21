@@ -1,14 +1,4 @@
 #!/usr/bin/env python3
-"""
-Download CNN/DailyMail (Hugging Face) and save as JSONL files:
-  data/cnn_dm/train.jsonl
-  data/cnn_dm/validation.jsonl
-  data/cnn_dm/test.jsonl
-
-Usage:
-  python src/download_cnn_dm.py --limit 2000
-  (limit is optional; if omitted the full splits will be downloaded)
-"""
 import argparse
 import os
 import json
